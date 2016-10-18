@@ -13,5 +13,10 @@ namespace URP_System
         {
 
         }
+
+        protected void btnLogIn_Click(object sender, EventArgs e)
+        {
+            Server.Transfer("StudentURPForm.aspx");
+        }
     }
 }
