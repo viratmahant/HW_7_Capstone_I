@@ -20,9 +20,12 @@ namespace URP_System
             {
                 Server.Transfer("StudentURPForm.aspx");
             }
-            else
+            else if (DropDownList1.SelectedItem.Value == "faculty")
             {
                 Server.Transfer("FacultyPage.aspx");
+            } else if (DropDownList1.SelectedItem.Value == "projCord")
+            {
+                Server.Transfer("Cordinator.aspx");
             }
             
         }

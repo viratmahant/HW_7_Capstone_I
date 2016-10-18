@@ -94,6 +94,7 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Cordinator.aspx" />
     <Content Include="packages.config" />
     <Content Include="ApplicationInsights.config">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
@@ -131,6 +132,13 @@
     </Compile>
     <Compile Include="ContactUS.aspx.designer.cs">
       <DependentUpon>ContactUS.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Cordinator.aspx.cs">
+      <DependentUpon>Cordinator.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Cordinator.aspx.designer.cs">
+      <DependentUpon>Cordinator.aspx</DependentUpon>
     </Compile>
     <Compile Include="FacultyPage.aspx.cs">
       <DependentUpon>FacultyPage.aspx</DependentUpon>

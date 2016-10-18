@@ -36,19 +36,19 @@
                 <td>tuf79898</td>
                 <td>Micheal Boo</td>
                 <td>Danny Mack</td>
-                <td class="text-center"><a class='btn btn-info btn-xs' href="#"><span class="glyphicon glyphicon-edit"></span> Edit</a> <a href="#" class="btn btn-danger btn-xs"><span class="glyphicon glyphicon-remove"></span> Del</a></td>
+                <td class="text-center"><a class='btn btn-success btn-xs' href="#"><span class="glyphicon glyphicon-ok"></span> Approve</a> <a href="#" class="btn btn-danger btn-xs"><span class="glyphicon glyphicon-remove"></span> Deny</a></td>
             </tr>
             <tr>
                 <td>tuf8989</td>
                 <td>Denny Mory</td>
                 <td>Shawn Flannygan</td>
-                <td class="text-center"><a class='btn btn-info btn-xs' href="#"><span class="glyphicon glyphicon-edit"></span> Edit</a> <a href="#" class="btn btn-danger btn-xs"><span class="glyphicon glyphicon-remove"></span> Del</a></td>
+                <td class="text-center"><a class='btn btn-success btn-xs' href="#"><span class="glyphicon glyphicon-ok"></span> Approve</a> <a href="#" class="btn btn-danger btn-xs"><span class="glyphicon glyphicon-remove"></span> Deny</a></td>
             </tr>
             <tr>
                 <td>tug90909</td>
                 <td>Shawn Micheal</td>
                 <td>Rose Mccgins</td>
-                <td class="text-center"><a class='btn btn-info btn-xs' href="#"><span class="glyphicon glyphicon-edit"></span> Edit</a> <a href="#" class="btn btn-danger btn-xs"><span class="glyphicon glyphicon-remove"></span> Del</a></td>
+                <td class="text-center"><a class='btn btn-success btn-xs' href="#"><span class="glyphicon glyphicon-ok"></span> Approve</a> <a href="#" class="btn btn-danger btn-xs"><span class="glyphicon glyphicon-remove"></span> Deny</a></td>
             </tr>
     </table>
     </div>

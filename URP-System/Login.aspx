@@ -19,6 +19,7 @@
                     <asp:DropDownList ID="DropDownList1" runat="server" Height="31px" Width="251px">
                         <asp:ListItem Value="student">Student</asp:ListItem>
                         <asp:ListItem Value="faculty">Faculty</asp:ListItem>
+                        <asp:ListItem Value="projCord">Cordinator</asp:ListItem>
                     </asp:DropDownList>
                 </div>
              </div>
