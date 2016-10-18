@@ -16,7 +16,15 @@ namespace URP_System
 
         protected void btnLogIn_Click(object sender, EventArgs e)
         {
-            Server.Transfer("StudentURPForm.aspx");
+            if (DropDownList1.SelectedItem.Value == "student")
+            {
+                Server.Transfer("StudentURPForm.aspx");
+            }
+            else
+            {
+                Server.Transfer("FacultyPage.aspx");
+            }
+            
         }
     }
 }

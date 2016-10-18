@@ -3,7 +3,7 @@
     
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
-<div class="col-md-6 col-md-offset-3" style="border-radius:25px; border: 2px solid lightgrey; padding: 20px; background-color: lightgrey;">
+<div class="col-md-6 col-md-offset-3" style=" border-radius:25px; border: 2px solid lightgrey; padding: 20px; background-color: lightgrey; align-content:center;">
     
         <div class="form-group">
             <label for="name" class="cols-sm-2 control-label">User Name</label>
@@ -18,7 +18,7 @@
                    <span class="input-group-addon"><i aria-hidden="true" class="glyphicon glyphicon-star"></i></span>
                     <asp:DropDownList ID="DropDownList1" runat="server" Height="31px" Width="251px">
                         <asp:ListItem Value="student">Student</asp:ListItem>
-                        <asp:ListItem Value="Faculty">Faculty</asp:ListItem>
+                        <asp:ListItem Value="faculty">Faculty</asp:ListItem>
                     </asp:DropDownList>
                 </div>
              </div>
@@ -35,7 +35,7 @@
             </div>
 
             <div class="form-group">              
-                <asp:Button ID="btnLogIn" class="btn btn-primary btn-md" text="Log In"  runat="server"  ></asp:Button>               
+                <asp:Button ID="btnLogIn" class="btn btn-primary btn-md" text="Log In"  runat="server" OnClick="btnLogIn_Click" ></asp:Button>               
              </div>
 
   </div>

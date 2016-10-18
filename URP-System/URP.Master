@@ -32,9 +32,9 @@
             </div>
             <div class="collapse navbar-collapse" id="myNavbar">
               <ul class="nav navbar-nav">
-                <li class="active"><a href="#">Home</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Contact us</a></li>
+                <li class="active"><a href="Login.aspx">Home</a></li>
+                <li><a href="AboutUs.aspx">About</a></li>
+                <li><a href="ContactUS.aspx">Contact us</a></li>
               </ul>
             </div>
           </div>
